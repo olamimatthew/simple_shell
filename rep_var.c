@@ -152,7 +152,7 @@ char *rep_var(char *input, data_shell *datash)
 	head = NULL;
 
 	olen = check_vars(&head, input, status, datash);
-if (head == NULL)
+	if (head == NULL)
 	{
 		free(status);
 		return (input);
